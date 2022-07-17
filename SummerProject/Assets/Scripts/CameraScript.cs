@@ -20,6 +20,7 @@ public class CameraScript : MonoBehaviour
     void Start()
     {
         cameraOffset = transform.position - playerTransform.position;
+        
     }
 
     void LateUpdate()
